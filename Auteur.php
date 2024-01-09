@@ -50,9 +50,9 @@ class Auteur {
     }
 
     public function afficherBibliographie() {
-        $resultat = "<h1>Livres de $this</h1>";
+        $resultat = "<h2>Livres de $this</h2>";
 
-        foreach ($this->livres as $livre) {
+        foreach ($this->_livres as $livre) {
             $resultat .= $livre . "<br>";
         }
 

@@ -16,7 +16,7 @@ class Livre {
         $this->_nbPages = $nbPages;
         $this->_prix = $prix;
         $this->_auteur = $auteur;
-        $this->_livre->addLivre($this);
+        $this->_auteur->addLivre($this);
     }
 
     // accesseurs
